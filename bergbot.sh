@@ -300,16 +300,22 @@ case $PERGUNTA in
                 sleep 1
                 Calculadora
                 Fim
+                sleep 1
+                clear
 
         ;;
         *'editar'*)
                 Mousepad
                 Fim
+                sleep 1
+                clear
 
         ;;
         *'nota'*)
                 Mousepad
                 Fim
+                sleep 1
+                clear
 
         ;;
         *''*)
