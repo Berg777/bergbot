@@ -72,6 +72,12 @@ Versao()
 }
 
 
+Fim()
+{
+        echo -e "\033[1mAté logo\033[0m"
+}
+
+
 Atualizar()
 {
         echo "BergBot versão 0.1"
@@ -92,6 +98,20 @@ Conexao()
         echo -e "\033[1mVerificando conexão\033[0m"
         sleep 1
         ping -c4 $CONECT
+}
+
+
+Calculadora()
+{
+        mate-calc
+}
+
+
+Mousepad()
+{
+        echo -e "\033[1mVI é vida!!\033[0m"
+        sleep 1
+        mousepad
 }
 
 
@@ -274,6 +294,23 @@ case $PERGUNTA in
         *'hora'*)
                 Horario
         
+        ;;
+        *'calc'*)
+                echo -e "\033[1mPra já\033[0m"
+                sleep 1
+                Calculadora
+                Fim
+
+        ;;
+        *'editar'*)
+                Mousepad
+                Fim
+
+        ;;
+        *'nota'*)
+                Mousepad
+                Fim
+
         ;;
         *''*)
                 echo "Ainda estou em desenvolvimento, não tenho resposta para isso."
