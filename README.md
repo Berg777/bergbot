@@ -34,8 +34,6 @@ bergbot inteligência artificial simples, criado em 10/2022
 Modo de usar: bergbot <pergunta>
 ```
 
-<img src="https://i.pinimg.com/originals/5c/04/ee/5c04eecf7972789b9b8f1f9cdd6175c0.gif" align="left">
-
 <div align="center">
 
 ## Comandos
