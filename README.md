@@ -1,4 +1,4 @@
-<p align="right"><strong>English</strong> | <a href="https://github.com/berg777/bergbot/blob/main/README.pt-br.md">Português</a></p>
+<p align="right"><a href="https://github.com/berg777/bergbot/blob/main/README.md">English</a> | <strong>Português</strong> </p>
 
 <div align="center">
 
