@@ -1,5 +1,5 @@
 <p align="right"><strong>English</strong> | <a href="https://github.com/berg777/bergbot/blob/main/README.pt-br.md%22%3EPortuguês</a></p>
-readme.md
+
 
 <div align="center">
 
