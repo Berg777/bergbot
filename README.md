@@ -46,7 +46,6 @@ Aqui está uma lista dos comandos disponiveis por enquanto
 ajuda
 serviço
 windows
-serviço
 conexao
 versao
 atualizar
