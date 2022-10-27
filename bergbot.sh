@@ -522,6 +522,13 @@ case $PERGUNTA in
 esac
 
 case $PERGUNTA in
+        *'versao'*)
+                Versao
+
+        ;;
+esac
+
+case $PERGUNTA in
 
         *'vulnera'*)
                 Nmap
