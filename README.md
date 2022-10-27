@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/Berg777/bergbot/blob/main/README.pt-br.md">English</a> | <strong>Português</strong> </p>
+
 <div align="center">
 
 # bergbot
