@@ -7,26 +7,26 @@
 
 ## Pra que serve?</div>
 
-bergbot é uma inteligência artificial simples que pode ser usada para facilitar processos no linux
+bergbot is a simple artificial intelligence that can be used to facilitate processes in linux
 
 <div align="center">
 
-## Instalação 
+## Installation
 </div>
 
-Para a instalação eu montei um setup
+For installation here is the setup
 
  ```sh
 git clone https://github.com/berg777/bergbot
 ```
 
-Após terminar o download
+After finishing the setup
  
  ```sh
 chmod 755 bergbot/setup.sh && sudo bergbot/setup.sh
 ```
 
-Para usar o bergbot, você precisa digitar letras minúsculas, idioma português e como ainda está em fase de desenvolvimento apenas comandos que adicionei.
+To use bergbot you need to type lowercase letters, Portuguese language and as it is still in the development phase just commands that I added.
 
 ```sh
 bergbot inteligência artificial simples, criado em 10/2022
@@ -36,27 +36,27 @@ Modo de usar: bergbot <pergunta>
 
 <div align="center">
 
-## Comandos
+## Commands
 
-Aqui está uma lista dos comandos disponiveis por enquanto
+Here is a list of the commands available
 
 </div>
 
 ```text
 ajuda 
-serviço              - Verifica os serviços rodando no momento
-windows              - Utiliza a ferramenta kali-undercover para disfarçar o kali de windows
-conexao              - Verifica a conectividade com um host
-versao               - Roda um sudo apt update
-atualizar            - Roda um sudo apt update e upgrade
-nmap                 - Chama o nmap com os parâmetros -sV -T5 -A
+serviço              - Check the currently running services
+windows              - Use the kali-undercover tool to disguise kali from windows
+conexao              - Check connectivity to a host
+versao               - Run sudo apt update
+atualizar            - Run sudo apt update and upgrade
+nmap                 - Call nmap with parameters -sV -T5 -A
 criador              
 namorada
-trem                 - Segredo 🤫
-banner               - Utiliza o figlet para fazer um banner
-gobuster             - Chama a ferramneta gobuster para fazer um brute force de diretórios
+trem                 - Secret 🤫
+banner               - Use figlet to make a banner
+gobuster             - Call the gobuster tool to brute force directories
 horas                
-calculadora          - Abre a calculadora
-editar               - Abre o mousepad (editor de texto do kali)
+calculadora          - open the calculator
+editar               - Open the mousepad (kali text editor)
 
 ```
