@@ -43,20 +43,20 @@ Aqui está uma lista dos comandos disponiveis por enquanto
 </div>
 
 ```sh
-ajuda
-serviço
-windows
-conexao
-versao
-atualizar
-nmap
-criador
+ajuda 
+serviço              - Verifica os serviços rodando no momento
+windows              - Utiliza a ferramenta kali-undercover para disfarçar o kali de windows
+conexao              - Verifica a conectividade com um host
+versao               - Roda um sudo apt update
+atualizar            - Roda um sudo apt update e upgrade
+nmap                 - Chama o nmap com os parâmetros -sV -T5 -A
+criador              
 namorada
-trem
-banner
-gobuster
-horas
-calculadora
-editar
+trem                 - Segredo 🤫
+banner               - Utiliza o figlet para fazer um banner
+gobuster             - Chama a ferramneta gobuster para fazer um brute force de diretórios
+horas                
+calculadora          - Abre a calculadora
+editar               - Abre o mousepad (editor de texto do kali)
 
 ```
