@@ -42,7 +42,7 @@ Aqui está uma lista dos comandos disponiveis por enquanto
 
 </div>
 
-```sh
+```text
 ajuda 
 serviço              - Verifica os serviços rodando no momento
 windows              - Utiliza a ferramenta kali-undercover para disfarçar o kali de windows
