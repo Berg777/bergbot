@@ -7,7 +7,7 @@
 
 ## Pra que serve?</div>
 
-bergbot é uma inteligência artificial simples que pode ser usada para automatizar processos no linux
+bergbot é uma inteligência artificial simples que pode ser usada para facilitar processos no linux
 
 <div align="center">
 
