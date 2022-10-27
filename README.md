@@ -2,7 +2,7 @@
 
 # bergbot
 
-<img src="https://i.pinimg.com/originals/f7/e4/8b/f7e48b80ce8ae125426926d96e1f5c51.gif" align="right">
+<img src="https://i.pinimg.com/originals/01/ba/85/01ba8517e3b451762f1e1cc46f5ce2d0.gif" align="right">
 
 ## Pra que serve?</div>
 
@@ -33,7 +33,7 @@ bergbot inteligência artificial simples, criado em 10/2022
 Modo de usar: bergbot <pergunta>
 ```
 
-<img src="https://i.pinimg.com/originals/d6/74/4e/d6744e3a72c6cb83dd43bbc01fea362c.gif" align="left">
+
 
 <div align="center">
 
