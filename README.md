@@ -7,7 +7,7 @@
 <img src="https://i.pinimg.com/originals/e9/7d/c9/e97dc97d864ee9577ef79628a7af9c79.gif" align="right">
 
 
-## what is it for?</div>
+## What is it for?</div>
 
 bergbot is a simple artificial intelligence that can be used to facilitate processes in linux
 
