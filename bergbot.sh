@@ -279,46 +279,50 @@ Nmap()
 {
         case $NUM in 
         *'0'*)
-                echo "Chamando nmap"
+                echo -e "\033[1mChamando nmap\033[0m"
                 sleep 2
                 read -p "Qual é o alvo?: " HOST
                 sleep 1
                 echo -e "\033[1mScaneando \033[0m\033[1;34m$HOST\033[0m"
                 sleep 1
                 nmap -sV -T5 -A $HOST
+                echo -e "\033[1;32m----------------------------------------------------\033[0m"
                 echo -e "\033[1;32mScan Finalizado\033[0m"
 
         ;;
         *'1'*)
-                echo "Iniciando nmap"
+                echo -e "\033[1mIniciando nmap\033[0m"
                 sleep 2
                 read -p "Qual é o alvo?: " HOST
                 sleep 1
                 echo -e "\033[1mPreparando para derrubar o alvo \033[0m\033[1;34m$HOST\033[0m"
                 sleep 1
                 nmap -sV -T5 -A $HOST
+                echo -e "\033[1;32m----------------------------------------------------\033[0m"
                 echo -e "\033[1;32mScan Finalizado\033[0m"
 
         ;;
         *'2'*)
-                echo "calma ae que eu vou chamr meu parceiro nmap."
+                echo -e "\033[1mcalma ae que eu vou chamr meu parceiro nmap.\033[0m"
                 sleep 2
                 read -p "Qual é o alvo?: " HOST
                 sleep 1
                 echo -e "\033[1mIniciando Scan no alvo \033[0m\033[1;34m$HOST\033[0m"
                 sleep 1
                 nmap -sV -T5 -A $HOST
+                echo -e "\033[1;32m----------------------------------------------------\033[0m"
                 echo -e "\033[1;32mScan Finalizado\033[0m"
 
         ;;
         *'3'*)
-                echo "Chamando nmap"
+                echo -e "\033[1mChamando nmap\033[0m"
                 sleep 2
                 read -p "Qual é o alvo?: " HOST
                 sleep 1
                 echo -e "\033[1mVerificando o alvo \033[0m\033[1;34m$HOST\033[0m"
                 sleep 1
                 nmap -sV -T5 -A $HOST
+                echo -e "\033[1;32m----------------------------------------------------\033[0m"
                 echo -e "\033[1;32mScan Finalizado\033[0m"
 
         ;;
