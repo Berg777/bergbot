@@ -8,6 +8,8 @@
 NUM=$(($RANDOM %4))
 RM=RM94370
 
+H=`date +%H`
+
 HORAS=`date | cut -d" " -f4 | cut -d: -f1`
 PERIODO=`date | cut -d" " -f5 | cut -d: -f1`
 MINUTOS=`date | cut -d" " -f4 | cut -d: -f2`
@@ -336,13 +338,13 @@ Horario()
 {
         case $NUM in 
         *'0'*)
-                if (("$HORAS" >= "06")) && (("$HORAS" <= "12")) && (("$PERIODO" == "AM"))
-                then
+                if [ $H -lt 12 ]; then
+
                         figlet Bom dia!
                         echo -e "\033[1mAgora são $HORAS:$MINUTOS $PERIODO\033[0m"
 
-                elif (("$HORAS" >= "1")) && (("$HORAS" <= "6")) && (("$PERIODO" == "PM"))
-                then
+                elif [ $H -lt 18 ]; then
+
                         figlet Boa tarde!
                         echo -e "\033[1mAgora são $HORAS:$MINUTOS $PERIODO\033[0m"
                 else
@@ -352,13 +354,13 @@ Horario()
                 fi
         ;;
         *'1'*)
-                if (("$HORAS" >= "06")) && (("$HORAS" <= "12")) && (("$PERIODO" == "AM"))
-                then
+                if [ $H -lt 12 ]; then
+
                         echo -e "\033[1mBom dia!\033[0m"
                         figlet $HORAS : $MINUTOS $PERIODO
 
-                elif (("$HORAS" >= "1")) && (("$HORAS" <= "6")) && (("$PERIODO" == "PM"))
-                then
+                elif [ $H -lt 18 ]; then
+
                         echo -e "\033[1mBoa tarde!\033[0m"
                         figlet $HORAS : $MINUTOS $PERIODO
                 else
@@ -368,13 +370,13 @@ Horario()
                 fi                
         ;;
         *'2'*)
-                if (("$HORAS" >= "06")) && (("$HORAS" <= "12")) && (("$PERIODO" == "AM"))
-                then
+                if [ $H -lt 12 ]; then
+
                         echo -e "\033[1mUm ótimo dia para você!\033[0m"
                         echo -e "\033[1mAgora são $HORAS:$MINUTOS $PERIODO\033[0m"
 
-                elif (("$HORAS" >= "1")) && (("$HORAS" <= "6")) && (("$PERIODO" == "PM"))
-                then
+                elif [ $H -lt 18 ]; then
+
                         echo -e "\033[1mUma ótima tarde!\033[0m"
                         echo -e "\033[1mAgora são $HORAS:$MINUTOS $PERIODO\033[0m"
                 else
@@ -384,13 +386,13 @@ Horario()
                 fi   
         ;;
         *'3'*)
-                if (("$HORAS" >= "06")) && (("$HORAS" <= "12")) && (("$PERIODO" == "AM"))
-                then
+                if [ $H -lt 12 ]; then
+
                         figlet Bom dia!
                         figlet $HORAS : $MINUTOS $PERIODO
 
-                elif (("$HORAS" >= "1")) && (("$HORAS" <= "6")) && (("$PERIODO" == "PM"))
-                then
+                elif [ $H -lt 18 ]; then
+
                         figlet Boa tarde!
                         figlet $HORAS : $MINUTOS $PERIODO
                 else
@@ -526,6 +528,7 @@ case $PERGUNTA in
 esac
 
 case $PERGUNTA in
+        
         *'versao'*)
                 Versao
 
