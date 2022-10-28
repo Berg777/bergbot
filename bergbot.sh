@@ -110,7 +110,7 @@ Versao()
         echo -e "\033[1mVerificando versão do sistema\033[0m"
         sudo apt update
 
-        read -p "deseja atulizar? [s/n]: " RESPOSTA
+        read -p "deseja atualizar? [s/n]: " RESPOSTA
 
         case $RESPOSTA in 
 	[sS] ) echo -e "\033[1mIniciando atualização...\033[0m";
